@@ -1,0 +1,139 @@
+.pokemon_container {
+  text-align: center;
+
+  .title {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    background: #333;
+    color: #fff;
+    padding: 0.3em;
+    margin: 0.8em auto;
+    width: fit-content;
+  }
+
+  h3 {
+    margin: 0.6em auto;
+    font-size: 1.2em;
+  }
+
+  .types_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .type {
+    padding: 0.6em 1em;
+    color: #fff;
+    background: #000;
+    margin-right: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+  }
+  .normal {
+    background-color: #a8a878;
+    border: 1px solid #6d6d4e;
+  }
+
+  .fire {
+    background-color: #f08030;
+    border: 1px solid #9c531f;
+  }
+
+  .water {
+    background-color: #6890f0;
+    border: 1px solid #445e9c;
+  }
+
+  .electric {
+    background-color: #f8d030;
+    border: 1px solid #a1871f;
+  }
+
+  .grass {
+    background-color: #78c850;
+    border: 1px solid #4e8234;
+  }
+
+  .ice {
+    background-color: #98d8d8;
+    border: 1px solid #638d8d;
+  }
+
+  .ground {
+    background-color: #e0c068;
+    border: 1px solid #927d44;
+  }
+
+  .flying {
+    background-color: #a890f0;
+    border: 1px solid #6d5e9c;
+  }
+
+  .ghost {
+    background-color: #705898;
+    border: 1px solid #493963;
+  }
+
+  .rock {
+    background-color: #b8a038;
+    border: 1px solid #786824;
+  }
+
+  .fighting {
+    background-color: #c03028;
+    border: 1px solid #7d1f1a;
+  }
+
+  .poison {
+    background-color: #a040a0;
+    border: 1px solid #682a68;
+  }
+
+  .psychic {
+    background-color: #f85888;
+    border: 1px solid #a13959;
+  }
+
+  .bug {
+    background-color: #a8b820;
+    border: 1px solid #6d7815;
+  }
+
+  .dark {
+    background-color: #705848;
+    border: 1px solid #49392f;
+  }
+
+  .steel {
+    background-color: #b8b8d0;
+    border: 1px solid #787887;
+  }
+
+  .dragon {
+    background-color: #7038f8;
+    border: 1px solid #4924a1;
+  }
+
+  .data_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+
+    div {
+      margin: 1em 0;
+      padding: 0 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .data_height {
+      border-right: 1px solid #ccc;
+    }
+  }
+}
