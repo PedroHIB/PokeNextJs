@@ -3,7 +3,7 @@ import styles from "../../styles/Pokemon.module.scss";
 import { useRouter } from "next/router";
 
 export const getStaticPaths = async () => {
-  const maxPokemmons = 1154;
+  const maxPokemmons = 905;
   const api = "https://pokeapi.co/api/v2/pokemon";
 
   const res = await fetch(`${api}/?limit=${maxPokemmons}`);
